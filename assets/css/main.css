@@ -1,0 +1,48 @@
+html * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background: rgb(238, 174, 202);
+    background: linear-gradient(to right, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    text-align: center;
+}
+
+.search {
+    margin-top: 10vh;
+}
+
+#search-box {
+    text-align: center;
+    width: 80px;
+    background-color: #ffffff4d;
+    border-radius: 4px;
+    border-width: 1px;
+    border-color: transparent;
+}
+
+#search-box:focus {
+    outline: none;
+}
+
+#search-btn {
+    padding: 5px;
+    font-size: 15px;
+    background-color: transparent;
+    border: none;
+}
+
+#search-btn:hover {
+    cursor: pointer;
+}
+
+#search-btn:active {
+    position: relative;
+    top: 1px;
+}
+
+#search-btn:focus {
+    outline: none;
+}
